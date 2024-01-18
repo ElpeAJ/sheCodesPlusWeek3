@@ -77,6 +77,6 @@ function checkCity() {
 }
 
 checkCity();
-// let footer = document.querySelector("footer");
-// footer.insertAdjacentHTML("afterend", "Hi there");
-// enterCities();
+let footer = document.querySelector("footer");
+footer.insertAdjacentHTML("afterend", "Hi there");
+enterCities();
