@@ -45,28 +45,32 @@
           </div>
         </div>
         <div class="col-3 offset-2">
-          <div class="input-group mb-3">
+          <form class="input-group mb-3" id="form">
             <input
-              type="text"
+              type="search"
               class="form-control"
               placeholder="Enter a City"
               aria-label="Enter a City"
               aria-describedby="button-addon2"
+              id="cityTyped"
             />
             <div class="input-group-append">
               <button
                 class="btn btn-outline-secondary"
                 type="button"
-                id="button-addon2"
+                id="button-addon2 buttonClick"
               >
                 <i class="fa-brands fa-searchengin fa-fade fa-xl search"></i>
+                <input type="submit" value="" id="submitbtn" />
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <div class="row text-center">
-        <div class="col size">France, Paris</div>
+        <div class="col size">
+          <span id="city">France</span>, <span id="Country">Paris</span>
+        </div>
         <div class="col size">Tuesday 11:55am</div>
         <div class="col size">Scorching sun</div>
         <div class="col-4 size">
@@ -118,6 +122,7 @@
       </footer>
     </div>
 
-    <script src="src/index.js"></script>
+    <!-- <script src="src/index.js"></script> -->
+    <script src="src/api.js"></script>
   </body>
 </html>

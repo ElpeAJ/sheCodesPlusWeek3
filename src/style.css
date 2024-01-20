@@ -13,9 +13,25 @@ body {
   color: white;
 }
 
+#buttonClick {
+  position: relative;
+}
 .search {
   color: #ffd700;
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
+
+#submitbtn {
+  visibility: hidden;
+  /* background-color: rgb(1, 118, 165);
+  border: none; */
+}
+
+/* #submitbtn:hover {
+  background-color: #6C757D;
+} */
 
 .current {
   cursor: pointer;

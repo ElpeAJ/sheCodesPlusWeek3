@@ -1,4 +1,4 @@
-let weather = {
+let weather = { //let weather = {};
   paris: {
     temp: 19.7,
     humidity: 80,
